@@ -15,7 +15,13 @@ public void returnsJavaWhenGivenMultiplesOfThree() {
         assertEquals("Java", javabuzz.convert(18));
         assertEquals("Java", javabuzz.convert(66));
         assertEquals("Java", javabuzz.convert(90));
-
-
+}
+@Test
+public void returnsJavaWhenGivenMultiplesOfFive() {
+        JavaBuzz javabuzz = new JavaBuzz();
+        assertEquals("Buzz", javabuzz.convert(5));
+        // assertEquals("Java", javabuzz.convert(18));
+        // assertEquals("Java", javabuzz.convert(66));
+        // assertEquals("Java", javabuzz.convert(90));
 }
 }
